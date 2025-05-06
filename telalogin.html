@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--
+
+    Login: marcelafmar
+    Senha: marcela032
+    
+    -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Login - OdinLine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center border-bottom border-danger mb-4">Usuário</h1>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="form-container">
+          <form id="formulario" action="#" method="post">
+            <fieldset>
+              <div class="mb-3">
+                <label class="form-label" for="login">Login</label>
+                <input class="form-control" id="login" name="login" type="text" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="senha">Senha</label>
+                <input class="form-control" id="senha" name="senha" type="password" required>
+              </div>
+
+              <div class="d-flex justify-content-end">
+                <button class="btn btn-success" type="button" onclick="autenticar()">Entrar</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/usuario.js"></script>
+  <script src="js/telalogin.js"></script>
+</body>
+
+</html>
